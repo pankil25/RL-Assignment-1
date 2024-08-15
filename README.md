@@ -1,5 +1,22 @@
 # Grid World with SARSA and Q-Learning
 
+## Overview
+This project implements a customizable GridWorld environment for reinforcement learning algorithms. The environment simulates a grid where an agent can navigate, with the ability to define start states, goal states, obstacles, and rewards. It also includes a variant of the environment that introduces wind effects to simulate stochastic transitions.
+
+## Features
+- **Customizable Grid Dimensions**: Define the number of rows and columns.
+- **Dynamic Start and Goal States**: Specify the starting point and multiple goal states.
+- **Obstacle and Bad States**: Add states that are obstructed or have negative rewards.
+- **Windy Environment**: Introduces wind effects that can influence the agent's transitions.
+- **Rendering Capabilities**: Visualize the grid and the agent's position during navigation.
+
+## Setup
+
+### Installation
+To set up the environment, you will need the following libraries:
+```bash
+pip install numpy matplotlib
+
 ## Environment Description
 
 ### Grid World Overview
@@ -25,6 +42,11 @@
 - **Restart States**: -100
 - **Bad States**: -6
 - **Normal States**: -1
+
+
+
+
+
 
 ## Tasks
 
