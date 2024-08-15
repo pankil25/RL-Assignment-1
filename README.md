@@ -16,7 +16,7 @@ This project implements a customizable GridWorld environment for reinforcement l
 To set up the environment, you will need the following libraries:
 ```bash
 pip install numpy matplotlib
-
+```
 ## Environment Description
 
 ### Grid World Overview
